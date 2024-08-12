@@ -1,3 +1,5 @@
+### Note: This is repo is created based on a [repo template](https://github.com/gitpod-samples/demo-dotfiles-with-gitpod/tree/main) provided by Gitpod
+
 # Bring your Dotfiles to Gitpod
 
 Ever wondered how you can bring your personal dotfiles configurations to [Gitpod](https://www.gitpod.io/) to have your personalized ephemeral developer environments in the cloud? Here's how...
@@ -11,15 +13,7 @@ Ever wondered how you can bring your personal dotfiles configurations to [Gitpod
   - `./scripts/deno_configure.sh` to install & configure [deno](https://deno.land/).
   - `./scripts/gcloud_cli_install.sh` to install [Google Cloud CLI](https://cloud.google.com/sdk/docs/install-sdk).
 
-## How You Can Quickly Use this dotfiles with your Gitpod Workspaces (as template)
-
-- You Can generate a repo. for you by [using this template](https://github.com/gitpod-io/demo-dotfiles/generate)
-- Name your Repo. (e.g.: `dotfiles`).
-- Add your `dotfiles` repository to [Gitpod Dashboard Preferences](https://gitpod.io/preferences)
-- Now, everytime you will start a new workspace or just Restart your Gitpod Workspace, you will get your lovely dotfiles customisation setup.
-
 > **Note**: Your installation script will be terminated if it exceeds 120 seconds.
-
 
 
 ## Modify it according to your personal requirements
