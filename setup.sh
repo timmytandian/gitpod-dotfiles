@@ -11,7 +11,7 @@ CURRENT=$PWD
 cd $TMPDIR
 
 # Define a list of installation scripts to exclude
-EXCLUDES=("aws_cli_install.sh" "terraform_configure.sh")
+EXCLUDES=("placeholder.sh" "terraform_configure.sh")
 
 time {
 # Run each installation script inside the "scripts" folder.
