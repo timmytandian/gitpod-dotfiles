@@ -11,7 +11,7 @@ CURRENT=$PWD
 cd $TMPDIR
 
 # Define a list of installation scripts to exclude
-EXCLUDES=("placeholder.sh" "terraform_configure.sh")
+EXCLUDES=("placeholder-1.sh" "placeholder-2.sh")
 
 time {
 # Run each installation script inside the "scripts" folder.
