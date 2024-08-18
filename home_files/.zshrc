@@ -1,3 +1,5 @@
+source $HOME/.nix-profile/etc/profile.d/nix.sh
+
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
@@ -72,10 +74,6 @@ fi
 # set aws cli to automatically prompt cli options after pressing Enter
 #export AWS_CLI_AUTO_PROMPT="on-partial"
 
-# enable autocompleter for aws cli
-export PATH=/usr/local/bin/aws_completer:$PATH
-complete -C '/usr/local/bin/aws_completer' aws
-
 
 #######################################################################
 # Something else
@@ -87,3 +85,8 @@ eval "$(starship init zsh)"
 # Enable Terraform autocompletion in zsh
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
+
+# enable autocompleter for aws cli in zsh
+autoload bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+complete -C '/usr/local/bin/aws_completer' aws
