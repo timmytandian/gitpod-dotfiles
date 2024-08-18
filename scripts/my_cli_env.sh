@@ -9,4 +9,4 @@ nix-env -iA nixpkgs.gh \
             nixpkgs.lsd \
             nixpkgs.fzf \
             nixpkgs.fd \
-            nixpkgs.starship \
+            nixpkgs.starship

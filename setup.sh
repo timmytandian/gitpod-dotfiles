@@ -11,8 +11,9 @@ CURRENT=$PWD
 cd $TMPDIR
 
 # Define a list of installation scripts to exclude
-EXCLUDES=("deno_configure.sh" "gcloud_cli_install.sh")
+EXCLUDES=("aws_cli_install.sh" "terraform_configure.sh")
 
+time {
 # Run each installation script inside the "scripts" folder.
 # Gitpod clones this repo into "$HOME/.dotfiles" folder in the
 # Gitpod development instance.
@@ -54,3 +55,4 @@ done < <(find "${dotfiles_source}" -type f)
 
 # Clean up the temp dir
 rm -rf $TMPDIR
+}
