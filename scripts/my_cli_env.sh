@@ -10,3 +10,8 @@ nix-env -iA nixpkgs.gh \
             nixpkgs.fzf \
             nixpkgs.fd \
             nixpkgs.starship
+
+
+# Configure git user name and user email
+git config --global user.name "gitpod timmytandian"
+git config --global user.email "m37656192+timmytandian@users.noreply.github.com"
