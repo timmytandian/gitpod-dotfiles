@@ -10,3 +10,5 @@ nix-env -iA nixpkgs.gh \
             nixpkgs.fzf \
             nixpkgs.fd \
             nixpkgs.starship
+
+# test
