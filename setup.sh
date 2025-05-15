@@ -17,7 +17,7 @@ time {
 # Run each installation script inside the "scripts" folder.
 # Gitpod clones this repo into "$HOME/.dotfiles" folder in the
 # Gitpod development instance.
-for script in ~/.dotfiles/scripts/*; do
+for script in ./scripts/*; do
   script_name=$(basename "$script")
   
   # Check if the script is in the exclusion list
